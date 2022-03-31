@@ -58,10 +58,9 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
-        This is an open source version of the word guessing game we all know and
-        love -{' '}
+        SOY EL CREADOR DEL MEJOR JUEGO DEL MUNDO, ADEMÁS TE GANO JUGANDO AL AJEDREZ -{' '}
         <a
-          href="https://github.com/cwackerfuss/react-wordle"
+          href="https://lichess.org/@/ludwigferreras2013"
           className="underline font-bold"
         >
           check out the code here
