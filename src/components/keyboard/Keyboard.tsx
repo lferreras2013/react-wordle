@@ -22,9 +22,9 @@ export const Keyboard = ({
   const charStatuses = getStatuses(guesses)
 
   const onClick = (value: string) => {
-    if (value === 'ENTER') {
+    if (value === '✔') {
       onEnter()
-    } else if (value === 'DELETE') {
+    } else if (value === '🗑') {
       onDelete()
     } else {
       onChar(value)
